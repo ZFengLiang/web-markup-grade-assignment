@@ -91,6 +91,7 @@ body {
   flex-direction: column;
   font-family: 'Inter', sans-serif;
   margin-left: 500px;
+  justify-content: space-between;
 }
 legend {
   font-family:'Leckerli One', cursive;
@@ -144,6 +145,9 @@ input[type="text"]select textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+textarea{
+  height: 10em;
 }
 ::placeholder {
   height: 40px;
