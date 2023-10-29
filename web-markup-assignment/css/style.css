@@ -32,6 +32,7 @@ body {
 .header-top{
   font-family: 'Leckerli One', cursive;
   line-height: 80px;
+  text-transform: uppercase;
 }
 /* My nav */
 .header-nav {
@@ -62,6 +63,9 @@ body {
 .header-nav ul li a:hover {
   color: #ADE8BB;
 }
+.look {
+  background-color: darkgray;
+}
 /* Content of the website */
 .first-section {
   padding-top: 80px;
@@ -84,13 +88,20 @@ body {
 .second-section h2	{
   font-family: 'Leckerli One', cursive;
   text-indent: 0em;
+  padding:  1.25rem;
+  margin-top: 20px;
+}
+.A1 {
+  padding: 20px;
+  border-bottom: black 2px solid;
+  
 }
 .paragraphs {
   width: 50%;
   margin-left: 120px;
   margin-bottom: 180px;
   font-family: 'Inter', sans-serif;
-  word-spacing:  normal;
+  word-spacing:  1px;
   text-indent: 1.25em;
 
 }

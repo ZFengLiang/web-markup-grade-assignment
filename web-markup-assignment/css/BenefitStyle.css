@@ -32,6 +32,7 @@ body {
 .header-top{
     font-family: 'Leckerli One', cursive;
     line-height: 80px;
+    text-transform: uppercase;
 }
   /* My nav */
 .header-nav {
@@ -62,6 +63,9 @@ body {
 .header-nav ul li a:hover {
     color: #ADE8BB;
 }
+.look {
+  background-color: darkgray;
+}
 /* Content of the website */
 .first-section {
     padding-top: 80px;
@@ -76,23 +80,32 @@ body {
     color: white;
   }
   .second-section {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    font-family: 'Inter', sans-serif;
+    word-spacing:  normal;
+    text-indent: 1.25em;
 }
 .second-section h2	{
   font-family: 'Leckerli One', cursive;
   text-indent: 0em;
+  padding: 10px;
 }
 .paragraphs {
-  width: 50%;
-  margin-left: 120px;
-  margin-bottom: 180px;
-  font-family: 'Inter', sans-serif;
-  word-spacing:  normal;
-  text-indent: 1.25em;
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
 
+}
+.A1 {
+  padding: 20px;
+  border-bottom: white 2px solid;
+
+}
+.A2 {
+  padding: 20px;
+  border-bottom: black 2px solid;
 }
 figure {
   width: 50%;
@@ -101,6 +114,7 @@ figure {
 .Benefits {
   width: 450px;
   height:auto;
+  margin-right: 115px;
 }
 /* Footer */
 .footer-main {

@@ -31,6 +31,7 @@ body {
 .header-top{
   font-family: 'Leckerli One', cursive;
   line-height: 80px;
+  text-transform: uppercase;
 }
 /* My nav */
 .header-nav {
@@ -61,6 +62,9 @@ body {
 .header-nav ul li a:hover {
   color: #ADE8BB;
 }
+.look {
+  background-color: darkgray;
+}
 /* Content of the website */
 .first-section {
   padding-top: 80px;
@@ -74,86 +78,86 @@ body {
   font-size: 30px;
   color: white;
 }
+/* Form */
 .form {
-  width: 600px;
-  height: 850px;
-  background-color: rgb(230, 82, 28);
-  border-radius: 20px;
-  margin-top: 160px;
+  width: 550px;
+  height: 600px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
   border-color: black;
   border-style: solid;
-  border-width: 5px;
-  font-family: "Trirong", serif;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  margin-left: 500px;
 }
-
-.radiobutton {
-  margin-top: 50px;
+legend {
+  font-family:'Leckerli One', cursive;
+  font-size: 30px;
+}
+.form-message {
+  font-family:'Leckerli One', cursive;
+  margin-left: 350px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.radio-button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 600px;
-  height: 70px;
+  margin-top: 50px;
+  height: 50px;
+}
+
+.first-choice {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.second-choice {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.third-choice {
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .label1 {
   font-size: 30px;
   margin-left: 30px;
+  font-family:'Leckerli One', cursive;
 }
 
-.label2 {
-  font-size: 20px;
+.label2, .label3, .label4 {
+  font-size: 15px;
 }
-
-.label3 {
-  font-size: 20px;
-}
-
-.label4 {
-  font-size: 20px;
-}
-
-.choice1 {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.choice2 {
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-.choice3 {
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-
 input[type="text"]select textarea {
   width: 100%;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid;
+  border-color: black;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
-
+::placeholder {
+  height: 40px;
+ }
 input[type="submit"] {
-  background-color: #959592;
+  background-color: darkgrey;
   color: white;
-  padding: 12px 30px;
+  padding: 30px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
 }
-
 input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-label {
-  font-size: 20px;
+  background-color: #ADE8BB;
 }
 
 /* Footer */
@@ -212,9 +216,6 @@ label {
   padding: 0 10px;
   display: block;
   height: 80px;
-
-
-
 }
 .footer-nav ul li a:hover {
   color: #ADE8BB;

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CONTACT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Leckerli+One&family=Source+Serif+4:opsz@8..60&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/ContactStyle.css" />
+    <link rel="icon" href="img/fav1.png" type="image/png">
   </head>
   <body>
     <header class="header-main">
@@ -20,87 +21,80 @@
           <li><a href="Benefit.html">BENEFIT</a></li>
           <li><a href="Routes.html">ROUTES</a></li>
           <li><a href="About.html">ABOUT ROUTES</a></li>
-          <li><a href="Contact.html">CONTACT</a></li>
+          <li class="look"><a href="Contact.html">CONTACT</a></li>
         </ul>
       </nav>
     </header>
- <!-- COntent -->
- <section class="first-section">
-    <h1 class="banner-welcome">Contact us wiht form</h1>
-    <img src="img/contact-banner.png" alt="banner">
-  </section>
-  <form class="form" action="Sucessfull.html">
-    <legend>Information</legend>
-    <section class="radiobutton">
+<!-- COntent -->
+<section class="first-section">
+  <h1 class="banner-welcome">Contact us wiht form</h1>
+  <img src="img/contact-banner.png" alt="banner">
+</section>
+<h2 class="form-message">if you need help answering your questions, please fill in the form.</h2>
+ <!-- Form -->
+  <form class="form" action="Message.html">
+  <legend>Contact Form </legend>
+  <section class="radio-button">
       <label class="label1" for="title">Title:</label>
-
-      <section class="choice1">
+      <section class="first-choice">
         <input
           type="radio"
           id="Mr."
           name="gender"
           value="male"
-          class="radiobutton1"
+          class="radio-button1"
         />
         <label class="label2" for="Mr.">Mr.</label>
       </section>
-
-      <section class="choice2">
+      <section class="second-choice">
         <input
           type="radio"
-          id="Mrs"
+          id="Ms"
           name="gender"
           value="female"
-          class="radiobutton2"
+          class="radio-button2"
         />
         <label class="label3" for="Ms.">Ms.</label>
       </section>
-
-      <section class="choice3">
+      <section class="third-choice">
         <input
           type="radio"
           id="Other"
           name="gender"
           value="other"
-          class="radiobutton3"
+          class="radio-button3"
         />
-        <label class="label4" for="Other.">Other.</label>
+        <label class="label4" for="Other.">Other</label>
       </section>
-    </section>
-
-    <label for="fname"> Name</label>
+  </section>
+    <label for="name"> Name</label>
     <input
       type="text"
-      id="fname"
-      name="firstname"
-      placeholder="Your name.."
+      id="name"
+      name="name"
+      placeholder="Enter Name:"
     />
-
     <label for="Email">Email</label>
     <input
       type="text"
-      id="Email"
-      name="lastname"
-      placeholder="Your Email"
-      value="Email"
+      id="E-mail"
+      name="E-mail"
+      value="E-mail"
+      placeholder="Enter E-mail:"
     />
-
-    <label for="Phone number">Phone Number</label>
+    <label for="Phone-number">Phone Number</label>
     <input
       type="text"
-      id="Pnumber"
-      name="Pnumber"
-      placeholder="Your Phone Number"
+      id="number"
+      name="number"
+      placeholder="Enter Phone Number:"
     />
-
-    <label for="subject">Message Us</label>
+    <label for="messages">Enter Message</label>
     <textarea
-      id="subject"
-      name="subject"
-      placeholder="Write something.."
-      style="height: 200px"
+      id="messages"
+      name="messages"
+      placeholder="Enter your message:"
     ></textarea>
-
     <input type="submit" value="Submit" />
   </form>
         <!-- Footer section -->

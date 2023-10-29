@@ -32,6 +32,7 @@ body {
 .header-top{
     font-family: 'Leckerli One', cursive;
     line-height: 80px;
+    text-transform: uppercase;
 }
   /* My nav */
 .header-nav {
@@ -62,6 +63,9 @@ body {
 .header-nav ul li a:hover {
     color: #ADE8BB;
 }
+.look {
+  background-color: darkgray;
+}
 /* Content of the website */
 .first-section {
   padding-top: 80px;
@@ -76,28 +80,54 @@ body {
   color: white;
 }
 .second-section {
-  width: 100%;
-  height: 400px;
   display: flex;
-  align-items: center;
+  width: 100%;
+  height: 600px;
+  font-family: 'Inter', sans-serif;
+  word-spacing:  normal;
+  text-indent: 1.25em;
+}
+.alink:hover{
+  color: blue;
+}
+.blink:hover{
+  color: violet;
 }
 .second-section h2	{
   font-family: 'Leckerli One', cursive;
   text-indent: 0em;
+  padding-bottom: 10px;
 }
 .paragraphs {
-  width: 50%;
-  margin-left: 120px;
-  margin-bottom: 180px;
-  font-family: 'Inter', sans-serif;
-  word-spacing:  normal;
-  text-indent: 1.25em;
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
 
 }
-figure {
-  width: 50%;
-  margin-left: 220px;
+.A1 {
+  padding: 20px;
+  border-bottom: black 2px solid;
 }
+.A2 {
+  padding: 20px;
+  border-bottom: black 2px solid;
+}
+figure {
+ 
+  width: 50%;
+  height: 500px;
+ 
+}
+aside {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 500px;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 250px;
+}
+
 .Langs {
   width: 450px;
   height:auto;
@@ -105,6 +135,10 @@ figure {
 .geds {
     width: 450px;
     height:auto;
+}
+figure aside p {
+  padding: 20px;
+  font-weight: bold;
 }
 /* Footer */
 .footer-main {
