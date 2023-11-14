@@ -1,5 +1,5 @@
-Student name: your name 
-Student number: your student number
-Student class: your class
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+Student name: Zi Feng Liang 
+Student number: 712789
+Student class: IT1B
+GitHub Repository:https://github.com/ZFengLiang/web-markup-grade-assignment
+GitHub Pages URL:https://zfengliang.github.io/web-markup-grade-assignment/index.html
