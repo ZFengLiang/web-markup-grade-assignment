@@ -117,17 +117,11 @@ h2 {
     text-indent: 1.25em;
     
 }
-figure {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 500px;
+figure > .train{
+  width: 75%;
+  height: 300px;
   align-items: center;
-}
-.train {
-  margin-bottom: 50px;
-  margin-right: 50px;
- 
+  margin-right: 38px;
 }
 .whole-section {
   display: flex;

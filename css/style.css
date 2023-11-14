@@ -91,6 +91,7 @@ body {
   padding:  1.25rem;
   margin-top: 20px;
 }
+
 .A1 {
   padding: 20px;
   border-bottom: black 2px solid;
@@ -105,6 +106,9 @@ body {
   text-indent: 1.25em;
 
 }
+.paragraphs::first-letter {
+  font-size: 50px;
+}
 figure {
   width: 50%;
   margin-left: 220px;
@@ -112,6 +116,8 @@ figure {
 .malll {
   width: 450px;
   height:auto;
+  position: absolute;
+  bottom: -70px;
 }
 /* Footer */
 .footer-main {
@@ -175,4 +181,11 @@ figure {
 }
 .footer-nav ul li a:hover {
   color: #ADE8BB;
+}
+/* Responsive */
+@media screen and (max-width:768px) {
+  h1 {
+    display: none;
+  }
+  
 }

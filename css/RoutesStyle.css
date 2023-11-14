@@ -87,11 +87,24 @@ body {
   word-spacing:  normal;
   text-indent: 1.25em;
 }
+.bullet:nth-child(even) {
+  background: #CFF;
+}
+.bullet:nth-child(odd) {
+  background: #FFF;
+
+}
 .alink:hover{
   color: blue;
 }
+.alink:active {
+  color: white;
+}
 .blink:hover{
   color: violet;
+}
+.blink:active {
+  color: darkgreen;
 }
 .second-section h2	{
   font-family: 'Leckerli One', cursive;
